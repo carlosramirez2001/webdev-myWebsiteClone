@@ -28,6 +28,8 @@
     padding: 8px 10px;
 }
 
+
+
 #header{
     background-color: #1c272b;
     color: white;
@@ -50,17 +52,15 @@ height:200px;
 line-height:50px;
 margin-bottom:10px;
 width: 25vw;
-margin-inline-start:0px;
-margin-left:100px;
-margin-right:0px;
-margin-top:0px;
+margin: 50px 350px 16px;
 text-align:left;
 text-size-adjust:100%;
 
 }
 
 .secondarytext{
-    padding-right: 100px;
+    padding-right: 10px;
+    
 }
 
 
@@ -72,24 +72,30 @@ border-radius: 3px;
 cursor: pointer;
 display: inline-block;
 vertical-align: middle;
-font-size: 16px;
 font-weight: 700;
 line-height: 1.5;
-margin: 0 0 16px;
+margin: 400px 50px 16px;
 position: relative;
 }
 
 #spaceship{
     position: relative;
+    right: 100px;
     height: 300px;
     float: right;
     height:447.328px;
-    line-height:20px;
-    max-width:50%;
-    text-align:left;
-    text-size-adjust:100%;
-    vertical-align:middle;
-    width:731.828px;
+    margin: 10px 50px 10px;
+    
+}
+
+#companynumbers{
+    background-color: #1c272b;
+    color: rgb(255, 255, 255);
+    font-family:"Open Sans", "Segoe UI", Tahoma, sans-serif;
+    text-align: center;
+    display: block;
+    background-size: cover;
+    background-position: center;
 
 }
 
